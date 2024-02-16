@@ -1,0 +1,29 @@
+.name{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #090;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#one{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+#two{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        background-color: orange;
+    }
+    to{
+        background-color: white;
+    }
+}

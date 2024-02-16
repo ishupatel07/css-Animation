@@ -1,0 +1,33 @@
+.name{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    animation: name 5s linear 1s infinite alternate;
+}
+
+@keyframes name {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        top: 200px;
+    }
+
+    50% {
+        left: 200px;
+        top: 0px;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
